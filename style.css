@@ -3,13 +3,13 @@
   }
   
   .container {
-    background: #d3efdf;
+    background: whitesmoke;
     padding: 25px;
     max-width: 760px;
     margin: 25px auto;
     overflow: hidden;
-    border-radius: 10px;
-    border: 4px solid #b1c9bb;
+    border-radius: 5px;
+    border: 1px solid grey;
     font-family: sans-serif;
   }
   
@@ -17,7 +17,10 @@
   h2 {
     margin: 0;
     text-align: center;
-    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 30px;
   }
   
   h2 {
@@ -25,7 +28,7 @@
     text-align: center;
     border-bottom: 1px solid #b1c9bb;
     padding: 0 0 10px;
-    color: #57635c;
+    color: black;
   }
   
   .logo {
@@ -33,19 +36,18 @@
     text-align: center;
   }
   
-  .logo img {
-    width: 100px;
-  }
-  
   .new-task-container {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   
   .box {
-    padding: 10px 15px;
-    border: 2px solid #b1c9bb;
+    padding: 15px;
+    border: 1px solid grey;
     border-radius: 5px;
-    background: #fff;
+    background: white;
     margin: 15px 0;
   }
   
