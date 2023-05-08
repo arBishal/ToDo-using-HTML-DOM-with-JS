@@ -26,14 +26,9 @@
   h2 {
     font-size: 20px;
     text-align: center;
-    border-bottom: 1px solid #b1c9bb;
+    border-bottom: 0px solid grey;
     padding: 0 0 10px;
     color: black;
-  }
-  
-  .logo {
-    width: 100%;
-    text-align: center;
   }
   
   .new-task-container {
@@ -69,7 +64,7 @@
   
   li {
     padding: 10px;
-    border-bottom: 1px dotted #ccc;
+    border-top: 1px solid #CCCCCC;
   }
   
   .update {
