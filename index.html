@@ -11,17 +11,20 @@
 </head>
 
 <body>
+    <!--container-->
     <section class="container">
         <h1 id="header" class="header">To-Do App using HTML DOM manipulated with JS</h1>
-
+        
+        <!--add new task box-->
         <form class="new-task-container box">
             <label for="new-task" style="margin-right: 10px;">Add New Task</label>
-            <div>
+            <div style="display: flex; justify-content: center; align-items: center;">
                 <input type="text" id="new-task" />
-                <input type="submit" id="addTask" value="Add" />
+                <input type="submit" id="addTask" value="Add" class="add"/>
             </div>
         </form>
 
+        <!--incomplete list-->
         <div class="todo-list box">
             <h2>Incomplete Tasks</h2>
             <ul id="items">
@@ -36,17 +39,17 @@
                 </li>
             </ul>
         </div>
-        <!--/todo-list-->
-
+        
+        <!--/complete list-->
         <div class="complete-list box">
             <h2>Completed Tasks</h2>
             <ul>
                 <li class="item">Task Name <button class="delete">Delete</button></li>
             </ul>
         </div>
-        <!--/complete-list-->
     </section>
-    <!--/container-->
+    
+    <!--script-->
     <script src="script.js"></script>
 </body>
 
